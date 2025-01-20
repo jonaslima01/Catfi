@@ -23,32 +23,32 @@ let index = 0;
 const DontTreadOnMe = {
     name : "Don't Tread on Me",
     artist : "Metallica",
-    file : "/songs/Don't Tread On Me.mp3",
-    album : "/images/Black Album.webp",
+    file : "songs/Don't Tread On Me.mp3",
+    album : "images/Black Album.webp",
     liked : false
 }
 
 const Papercut = {
     name : "Papercut",
     artist : "Link Park",
-    file : "/songs/papercut.mp3",
-    album : "/images/Hibrid Theory.jpg",
+    file : "songs/papercut.mp3",
+    album : "images/Hibrid Theory.jpg",
     liked : false
 }
 
 const SymphonyOfDestruction = {
     name : "Symphony Of Destruction",
     artist : "Megadeth",
-    file : "/songs/Symphony Of Destruction.mp3",
-    album : "/images/Countdown to Extinction.jpg",
+    file : "songs/Symphony Of Destruction.mp3",
+    album : "images/Countdown to Extinction.jpg",
     liked : false
 }
 
 const DeadMemories = {
     name : "Dead Memories",
     artist : "Slipknot",
-    file : "/songs/Dead Memories.mp3",
-    album : "/images/All Hope Is Gone.jpg",
+    file : "songs/Dead Memories.mp3",
+    album : "images/All Hope Is Gone.jpg",
     liked : false
 }
 const playlist = JSON.parse(localStorage.getItem("playlist")) ?? [DontTreadOnMe, Papercut, SymphonyOfDestruction, DeadMemories];
