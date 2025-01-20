@@ -31,7 +31,7 @@ const DontTreadOnMe = {
 const Papercut = {
     name : "Papercut",
     artist : "Link Park",
-    file : "songs/papercut.mp3",
+    file : "songs/Papercut.mp3",
     album : "images/Hibrid Theory.jpg",
     liked : false
 }
